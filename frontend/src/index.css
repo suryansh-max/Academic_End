@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 80vh;
+  width: 100%;
+}
+
+.logo {
+  background: url('./student.png');
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: auto;
+}
+
+.logo-teacher {
+  background: url('./teacher.png');
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: auto;
+}
